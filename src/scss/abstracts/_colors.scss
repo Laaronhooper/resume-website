@@ -1,0 +1,17 @@
+:root{
+  --primary-hs: 0, 0%;
+  --incriment: 12.5%;
+}
+
+$header-height: 3rem;
+$darkest: hsl(var(--primary-hs),0%);
+$darker: hsl(var(--primary-hs), var(--incriment));
+$darkened: hsl(var(--primary-hs), calc(var(--incriment)*2));
+$dark: hsl(var(--primary-hs), calc(var(--incriment)*3));
+$medium: hsl(var(--primary-hs), calc(var(--incriment)*4));
+$light: hsl(var(--primary-hs), calc(var(--incriment)*5));
+$lightened: hsl(var(--primary-hs), calc(var(--incriment)*6));
+$lighter: hsl(var(--primary-hs), calc(var(--incriment)*7));
+$lightest: hsl(var(--primary-hs), calc(var(--incriment)*8));
+
+
